@@ -1,0 +1,331 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+}
+
+/* Style for navigation bar */
+button{
+    outline: 1px solid black;
+}
+@media only screen and (max-width:765px){
+    #collapsibleNavbar{
+        background-color: #fff !important;
+        line-height: .6rem !important;
+        text-align: center;
+        margin-top: -3px;
+        padding: 10px 0;
+        font-size: small;
+    }
+}
+.bg-info{
+    background-color: #e6f5f0 !important;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+#devlogo{
+    width: 130px;
+    height: auto;
+}
+.nav-item:hover .nav-link{
+    color: green !important;
+}
+/* end of style for navigation */
+
+
+/* section1 DEV CAREER */
+.row{
+    padding: 4% 6% !important;
+}
+.col-md-3{
+    position: relative !important;
+}
+.col-md-9{
+    position: relative !important;
+}
+.section1-aside-header1{
+    font-weight: 800;
+    color:#05B993;
+    font-size: 4em;
+    padding-top: 15vh;
+}
+.section1-bold{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #212529;
+    font-family: "Poppins", sans-serif;
+}
+.rotate1, .rotate2, .rotate3, .rotate4{
+    position: absolute;
+    font-size: 25px;
+    animation: rotate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes rotate{
+    from{transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
+}
+.rotate1{
+    color: rgb(207, 8, 8);
+    top: 180px;
+    left: -3vw;
+}
+.rotate2{
+    color: rgb(207, 8, 8);
+    top: 100px;
+    right: 8vw;
+}
+.rotate3{
+    color: #05B993;
+    top: 200px;
+    right: 2vw;
+}
+.rotate4{
+    color: rgb(207, 207, 7);
+    top: 400px;
+    right: 6vw;
+}
+@media only screen and (max-width:1100px){
+    .section1-aside-header1{
+        font-size: 300%;
+    }
+}
+@media only screen and (max-width:850px){
+    .section1-aside-header1{
+        font-size: 40px;
+    }
+}
+@media only screen and (max-width:900px){
+    .rotate1{
+        top: 180px;
+        left: -3vw;
+    }
+    .rotate2{
+        top: 10%;
+        right: 8vw;
+    }
+    .rotate3{
+        top: 40%;
+        right: 2vw;
+    }
+    .rotate4{
+        top: 80%;
+        right: 6vw;
+    }
+}
+/* end of section1 DEV CAREER */
+
+/* section2 Think Time Tech */
+.text-info{
+    font-weight: 500 !important;
+    color:#05B993 !important;
+    font-size: 16px;
+    margin: 20px 0;
+    letter-spacing: 1px;
+    line-height: 1.9;
+}
+
+.btn{
+    margin-top: 50px;
+    border: none !important;
+    outline: none !important;
+    border-radius: 5px !important;
+    background-color: #05B993 !important;
+}
+.btn:hover{
+    background-color: rgb(21, 206, 166) !important;
+}
+
+
+.bg-secondary{
+    background-color: #f8f9fa !important;
+}
+.col-md-4{
+    max-width: 32% !important;
+    background-color: #fff;
+}
+@media only screen and (max-width:1000px){
+    .justify-content-between{
+        display: block !important;
+    }
+    .col-md-4{
+        max-width: 80% !important;
+        margin: auto;
+    }
+}
+@media only screen and (max-width:500px){
+    .justify-content-between{
+        display: block !important;
+    }
+    .px-5{
+        padding: 0 !important;
+    }
+    .col-md-4{
+        max-width: 100% !important;
+        margin: 5px 0 !important;
+    }
+}
+.disabled{
+    font-weight: 600;
+    color: #705ecf;
+    pointer-events: none;
+    outline: none !important;
+    border: none;
+    padding: 20px 0 70px 0;
+}
+/*end of style for section2 Think Time Tech */
+
+
+/*section3 Why we exist */
+ul{
+    padding-left: 15px;
+}
+ul li{
+    margin-top: 10px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
+.patron{
+    outline: none;
+    background-color: #f15a43;
+    border: none;
+    border-radius: 50px;
+    padding: 5px 20px;
+    display: block;
+}
+.patron:hover{
+    background-color: #e7513b;
+}
+.donate{
+    border-radius: 5px !important;
+}
+
+@media only screen and (max-width:1000px){
+    .justify-content-between{
+        display: block !important;
+    }
+    .col-md-6, .col-me-6{
+        max-width: 99% !important;
+        margin: 5px auto !important;
+    }
+}
+/* end of section3 Why we exist */
+
+
+/*section4 Our Method */
+.method-heading{
+    font-weight: 700;
+    color:#05B993
+}
+.method{
+    font-size: 34px;
+    padding: 20px;
+    margin-top: 60px;
+}
+@media only screen and (min-width:1000px){
+    .section4-px-5{
+        padding: 0px 10% !important;
+    }
+}
+@media only screen and (max-width:1000px){
+    .section4-px-5{
+        padding: 0px !important;
+    }
+}
+@media only screen and (max-width:500px){
+    .justify-content-between{
+        display: block !important;
+    }
+}
+/*end of section4 Our Method */
+
+
+/* section5 All about us in one DIV */
+.abouth{
+    font-weight: 700;
+    color:#000
+}
+.abouth3{
+    font-weight: 600;
+    columns: #000000;
+    word-spacing: 2px;
+    line-height: 2rem;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.flex-header{
+    width: 170px;
+}
+/* end of section5 All about us in one DIV */
+
+/* section6 Stay Updated */
+.message{
+    font-size: 34px;
+    color: #fff;
+    background-color: #05B993;
+    padding: 10px;
+}
+.button-input{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.email{
+    width: 400px;
+    background-color: #fff;
+    border-radius: 0;
+    border: none;
+}
+.submit{
+    width: 20%;
+    color: #fff;
+    background-color: #05B993;
+    border-radius: 0;
+    border: none;
+}
+.submit:hover{
+    background-color: rgb(33, 206, 168);
+}
+@media only screen and (max-width:500px){
+    .button-input{
+        flex-wrap: wrap;
+    }
+    .email{
+        width: 100%;
+    }
+    .submit{
+        width: 100%;
+    }
+}
+/* end of section6 Stay Updated */
+
+/* chat box */
+.message2{
+    font-size: 30px;
+    padding: 15px;
+    color: #fff;
+    background-color: green;
+    position: fixed;
+    /* right: 2vw;
+    top: 90vh; */
+    z-index: 999;
+    animation-name: fixed;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+@keyframes fixed{
+    from{top: -100px; right: -100px;}
+    to{top: 90vh; right: 2vw;}
+}
